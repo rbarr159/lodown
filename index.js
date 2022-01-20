@@ -91,7 +91,7 @@ module.exports.identity = identity;
  * indexOf: this function takes in an array and a value and returns the index at which the first instance of the value is found.
  * @param {array}: an array that may contain the value parameter
  * @param {value} anything: takes in any parameter for which we'll search in the array  
- * @return {number}: returns the first index of array at which value is found 
+ * @return {number}: returns the first index of array at which value is found. if value is not found in the array, return -1
 */
 function indexOf(array, value) {
     for (var i = 0; i < array.length; i++) {
